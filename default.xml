@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="refs/tags/android-4.3.1_r1"
+  <default revision="refs/heads/phablet-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -381,5 +381,12 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+   <!-- Projects needed for Ubuntu, copied from the CM based phablet tree -->
+  <project path="external/gpg" name="platform/external/gpg" revision="master"/>
+  <project path="ubuntu/assets" name="ubuntu/assets" revision="master"/>
+  <project path="ubuntu/hybris" name="ubuntu/hybris" revision="master"/>
+  <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="master"/>
+  <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="master"/>
 
 </manifest>
