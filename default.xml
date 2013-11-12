@@ -347,7 +347,6 @@
   <project path="external/gpg" name="platform/external/gpg" revision="master"/>
   <project path="ubuntu/assets" name="ubuntu/assets" revision="master"/>
   <project path="ubuntu/hybris" name="ubuntu/hybris" revision="master"/>
-  <project path="ubuntu/hybris" name="ubuntu/hybris" revision="master"/>
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="master"/>
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="master"/>
 </manifest>
