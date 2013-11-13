@@ -42,7 +42,6 @@
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -434,5 +433,5 @@
   <project path="ubuntu/hybris" name="ubuntu/hybris" revision="master"/>
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="master"/>
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="master"/>
-
+  <project path="device/lge/mako-kernel" name="ubuntu/device_lge_mako_kernel_prebuilt" revision="master" groups="device,mako" />
 </manifest>
