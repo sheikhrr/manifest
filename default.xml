@@ -432,6 +432,6 @@
   <project path="ubuntu/assets" name="ubuntu/assets" revision="master"/>
   <project path="ubuntu/hybris" name="ubuntu/hybris" revision="jani/common_aosp"/>
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="master"/>
-  <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="master"/>
+  <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher"/>
   <project path="device/lge/mako-kernel" name="ubuntu/device_lge_mako_kernel_prebuilt" revision="master" groups="device,mako" />
 </manifest>
