@@ -348,7 +348,7 @@
   <!-- Projects needed for Ubuntu, copied from the CM based phablet tree -->
   <project path="external/gpg" name="platform/external/gpg" revision="master"/>
   <project path="ubuntu/assets" name="ubuntu/assets" revision="master"/>
-  <project path="ubuntu/hybris" name="ubuntu/hybris" revision="jani/common_aosp"/>
+  <project path="ubuntu/hybris" name="ubuntu/libhybris" revision="refs/heads/master"/>
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="master"/>
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="master"/>
   <project path="device/lge/mako-kernel" name="ubuntu/kernels/ubuntu_prebuilt_kernel_mako.git" revision="master" groups="device,mako" />
