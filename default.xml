@@ -387,5 +387,6 @@
   <project path="ubuntu/hybris" name="ubuntu/hybris"/>
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="master"/>
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="master"/>
-  <project path="device/lge/mako-kernel" name="ubuntu/device_lge_mako_kernel_prebuilt" revision="master" groups="device,mako" />
+  <project path="device/lge/mako-kernel" name="ubuntu/kernels/ubuntu_prebuilt_kernel_mako.git" revision="master" groups="device,mako" />
+
 </manifest>
