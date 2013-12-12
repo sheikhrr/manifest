@@ -7,6 +7,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote  name="github"
+           fetch="git://github.com" />
+
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -388,5 +391,7 @@
   <project path="ubuntu/platform-api" name="ubuntu/platform-api"/>
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="master"/>
   <project path="device/lge/mako-kernel" name="ubuntu/kernels/ubuntu_prebuilt_kernel_mako.git" revision="master" groups="device,mako" />
+  <!-- Mako vendor blobs so it builds out of the box -->
+  <project path="vendor/lge/mako" name="janimo/vendor_lge_mako" remote="github" revision="master" groups="device,mako" />
 
 </manifest>
