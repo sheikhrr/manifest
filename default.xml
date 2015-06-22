@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="phablet"
-           fetch="https://code-review.phablet.ubuntu.com/p/" />
+           fetch="../../../"
+           review="code-review.phablet.ubuntu.com" />
 
   <default revision="refs/heads/phablet-4.4.2_r1"
            remote="phablet"
