@@ -186,4 +186,7 @@
   <project path="ubuntu/ubuntu_prebuilt_initrd_debs" name="ubuntu/initrd/ubuntu_prebuilt_initrd_debs" revision="refs/heads/master" />
   <project path="ubuntu/ubuntu_prebuilt_initrd" name="ubuntu/initrd/ubuntu_prebuilt_initrd" revision="refs/heads/master" />
   <project path="ubuntu/prebuilts" name="ubuntu/prebuilts" revision="refs/heads/master" />
+
+  <!-- Temporary inclusion of prebuilt libhybris repository -->
+  <project path="ubuntu/libhybris-prebuilt" name="aosp/ubuntu/libhybris-prebuilt" revision="refs/heads/personal/w-ondra/phablet-5.x" />
 </manifest>
