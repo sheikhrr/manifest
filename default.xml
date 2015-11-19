@@ -29,6 +29,7 @@
   <project path="device/generic/x86" name="aosp/device/generic/x86" groups="pdk" />>
   <project path="device/lge/hammerhead" name="aosp/device/lge/hammerhead" groups="device,hammerhead" revision="refs/heads/personal/w-ondra/phablet-5.1.1_r5" />
   <project path="device/lge/mako" name="aosp/device/lge/mako" groups="device,mako" revision="refs/heads/personal/w-ondra/phablet-5.1.1_r5" />
+  <project path="device/moto/shamu" name="aosp/device/moto/shamu" groups="device,mako" revision="refs/heads/personal/w-ondra/phablet-5.1.1_r5" />
   <project path="device/sample" name="aosp/device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="aosp/device/samsung/manta" groups="device,manta" revision="refs/heads/personal/w-ondra/phablet-5.1.1_r5" />
   <project path="external/aac" name="aosp/platform/external/aac" groups="pdk" />
